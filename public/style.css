@@ -1,0 +1,29 @@
+header {
+
+  background: rgb(135,46,195);
+  background: linear-gradient(125deg, rgba(135,46,195,1) 0%, rgba(253,29,29,1) 79%, rgba(252,176,69,1) 100%);
+}
+
+body {
+  background: #faeed3;
+}
+
+section {
+  padding: 150px 0;
+}
+
+footer {
+  background: #eb2037 !important;
+}
+
+.results {
+  background: #ededed;
+}
+.btn-outline-dark:focus {
+  box-shadow: none;
+}
+#images {
+  height: 200px;
+
+  /* filter: drop-shadow(0 0 0.75rem crimson); */
+}
