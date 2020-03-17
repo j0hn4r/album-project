@@ -9,6 +9,8 @@ const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 require('dotenv').config();
 
+const port = process.env.PORT || 3000;
+
 const wikiurl = process.env.WIKI_API;
 const quoteurl = process.env.QUOTE_API;
 const unsplashAPI = process.env.SPLASH_API;
@@ -17,8 +19,8 @@ app.get('/', function(req, res) {
   res.send('Hello World!');
 });
 
-app.listen(3000, function() {
-  console.log('Example app listening on port 3000!');
+app.listen(port, function() {
+  console.log(`app listening on port ${port}!`);
 });
 
 app.post('/name', async (req, res, next) => {
