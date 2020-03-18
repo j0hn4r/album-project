@@ -4,9 +4,10 @@
   "description": "testing express",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "j0hn4r",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
